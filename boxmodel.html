@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="boxModel.css" />
+  </head>
+
+  <body>
+    <div class="form-style-5">
+      <form>
+        <!-- Candidate info. -->
+        <fieldset>
+          <legend>
+            <span class="number">1</span>
+            Candidate Info
+          </legend>
+          <input type="text" placeholder="your Name*" />
+          <input type="email" placeholder="your email*" />
+          <textarea placeholder="Little bit about yourself*"></textarea>
+          <label for="job">Interests:</label>
+          <select id="job" name="field4">
+            <optgroup label="Indoor">
+              <option value="fishkeeping">Fishkeeping</option>
+              <option value="Reading">Reading</option>
+              <option value="Boxing">Boxing</option>
+              <option value="watching Movies">Watching Movies</option>
+              <option value="other">other</option>
+            </optgroup>
+            <optgroup label="Outdoor">
+              <option value="football">Football</option>
+              <option value="walking">Walking</option>
+              <option value="cycling">Cycling</option>
+              <option value="hang out">Hang out</option>
+              <option value="other">other</option>
+            </optgroup>
+          </select>
+        </fieldset>
+
+        <!-- Additional info -->
+        <fieldset>
+          <legend><span class="number">2</span> Additional Info.</legend>
+          <textarea placeholder="About your work"></textarea>
+        </fieldset>
+
+        <!-- submit button -->
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>

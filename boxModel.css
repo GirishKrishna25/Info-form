@@ -1,0 +1,84 @@
+.form-style-5 {
+    max-width: 500px;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-style-5 fieldset {
+    border: none;
+}
+
+.form-style-5 legend {
+    font-size: 1.5em;
+}
+
+/* .form-style-5 label {
+    margin-bottom: 20px;
+} */
+
+.form-style-5 input[type="text"],
+.form-style-5 input[type="email"],
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 4px;
+    margin: 0px;
+    width: 100%;
+    /* for same width */
+    box-sizing:border-box;
+    padding: 15px;
+    outline: 0;
+    margin-bottom: 20px;
+    background-color: #ebeeef;
+    color: #8a97a0;
+    box-shadow: 5px 5px 10px #888888;
+    font-size: larger;
+}
+.form-style-5 textarea {
+    height: 150px;
+}
+
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus {
+    background: #d2d9dd;
+}
+
+.form-style-5 select {
+    margin-top: 5px;
+    height: 52px;
+}
+
+.form-style-5 .number {
+    background-color: green;
+    color: white;
+    height: 5px;
+    width: 30px;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: none;
+}
+
+.form-style-5 input[type="submit"]:hover {
+    background-color: gainsboro;
+}
